@@ -4,6 +4,7 @@
 $('#triviastart').on('click', function () {
     // console.log("start button works")
     // trivia.fadeOut(function () {
+        // removes question after answered//
         $('#question').remove();
     // })
     trivia.triviastart();
